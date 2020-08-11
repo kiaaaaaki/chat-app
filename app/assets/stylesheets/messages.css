@@ -13,13 +13,45 @@
   background-color: #253141;
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side_tom a{
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+
+}
+
+.side_chat {
+  font-size: 10px;
+}
+
+.side_chat a {
+  padding: 14px;
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  text-decoration: none;
 }
 
 .side_ber_room {
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  /* overflow: scroll; */
+
 }
+.room {
+  padding: 20px 0 40px;
+}
+
+.room-name a {
+  text-decoration: none;
+  color: white;
+}
+
 
 .chat {
   width: calc(100% - 300px);
@@ -27,20 +59,18 @@
 }
 
 .chat_top {
-  background-color: #ffffff;
   height: 100px;
   padding: 0 40px;
-
 }
 
 .chat_message {
-  background-color: #fafafa;
+  background-color: #FAFAFA;
   height: calc(100vh - 100px - 90px);
   padding: 46px 40px 0;
 }
 
 .chat_form {
-  background-color: #dddddd;
+  background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
 }
